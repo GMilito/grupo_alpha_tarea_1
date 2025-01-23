@@ -1,5 +1,6 @@
 from config import ConfigurationManager
 from log import Logger
+from bitacora import Bitacora
 from sync import SyncManager, FileReceiver
 from monitor import FolderMonitor
 from gui import SyncApp
@@ -11,6 +12,13 @@ def main():
     Punto de entrada principal del programa.
     Orquesta la inicialización de módulos y la GUI.
     """
+    # Crear una instancia de la bitácora
+    bitacora = Bitacora()
+    
+    # Crear e iniciar el monitor, pasando la bitácora
+    folder_monitor = FolderMonitor(sync_folder, bitacora)
+    folder_monitor.start()
+
     # Configurar el logger
     Logger.configure_logger()
     Logger.log_info("El sistema está iniciando...")
@@ -27,6 +35,9 @@ def main():
         client.start()
     except Exception as e:
         print(f"Error al iniciar el cliente: {e}")
+        # Registrar el error en la bitácora
+        bitacora.registrar_error(e)
+
     # Inicializar la ventana Tkinter (root)
     root = Tk()
     root.withdraw()  # Ocultar la ventana principal de Tkinter
@@ -43,9 +54,13 @@ def main():
             config["sync_folder"] = sync_folder
             ConfigurationManager.save_config(config)
             Logger.log_info(f"Carpeta de sincronización configurada: {sync_folder}")
+            # Registrar la adición de la carpeta de sincronización en la bitácora
+            bitacora.registrar_evento_personalizado(f"Carpeta de sincronización configurada: {sync_folder}")
         else:  # Si no se seleccionó una carpeta
             Logger.log_error("El usuario no seleccionó una carpeta. Terminando el programa.")
             print("Error: Debe configurar una carpeta de sincronización para continuar.")
+            # Registrar el error en la bitácora
+            bitacora.registrar_error("El usuario no seleccionó una carpeta. Terminando el programa.")
             return
 
     # Inicializar SyncManager con root
@@ -58,6 +73,8 @@ def main():
             FolderMonitor(sync_manager.sync_new_file).start(sync_folder)
         except Exception as e:
             Logger.log_error(f"Error en el monitor: {e}")
+            # Registrar el error en la bitácora
+            bitacora.registrar_error(e)
 
     monitor_thread_running = False
     monitor_thread_instance = None
@@ -79,6 +96,8 @@ def main():
             monitor_thread_running = True
 
             Logger.log_info("Sincronización iniciada.")
+            # Registrar el inicio de la sincronización en la bitácora
+            bitacora.registrar_evento_personalizado("Sincronización iniciada.")
 
     def stop_sync():
         """
@@ -96,6 +115,8 @@ def main():
             monitor_thread_running = False
 
             Logger.log_info("Sincronización detenida.")
+            # Registrar el paro de la sincronización en la bitácora
+            bitacora.registrar_evento_personalizado("Sincronización detenida.")
 
     # Iniciar la aplicación gráfica
     app = SyncApp()

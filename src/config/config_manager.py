@@ -1,5 +1,6 @@
 import json
 import os
+from logger import Logger  # Asumimos que el Logger está en un archivo separado
 
 CONFIG_FILE = "config.json"
 
@@ -16,13 +17,16 @@ class ConfigurationManager:
                 "clients": []
             }
             ConfigurationManager.save_config(default_config)
+            Logger.log_info("Archivo de configuración no encontrado. Se creó uno con valores por defecto.")
             return default_config
 
         try:
             with open(CONFIG_FILE, "r") as f:
-                return json.load(f)
+                config = json.load(f)
+            Logger.log_info("Configuración cargada exitosamente.")
+            return config
         except json.JSONDecodeError as e:
-            print(f"Error al leer el archivo de configuración: {e}")
+            Logger.log_error(f"Error al leer el archivo de configuración: {e}")
             return {
                 "sync_folder": "",
                 "clients": []
@@ -38,8 +42,9 @@ class ConfigurationManager:
         try:
             with open(CONFIG_FILE, "w") as f:
                 json.dump(config, f, indent=4)
+            Logger.log_info("Configuración guardada exitosamente.")
         except Exception as e:
-            print(f"Error al guardar la configuración: {e}")
+            Logger.log_error(f"Error al guardar la configuración: {e}")
 
     @staticmethod
     def add_client(host, port):
@@ -55,14 +60,14 @@ class ConfigurationManager:
         # Evitar duplicados
         for client in clients:
             if client["host"] == host and client["port"] == port:
-                print(f"El cliente {host}:{port} ya está en la lista.")
+                Logger.log_info(f"El cliente {host}:{port} ya está en la lista.")
                 return
 
         # Añadir el nuevo cliente
         clients.append({"host": host, "port": port})
         config["clients"] = clients
         ConfigurationManager.save_config(config)
-        print(f"Cliente {host}:{port} añadido correctamente.")
+        Logger.log_info(f"Cliente {host}:{port} añadido correctamente.")
 
     @staticmethod
     def remove_client(host, port):
@@ -78,9 +83,9 @@ class ConfigurationManager:
         updated_clients = [client for client in clients if not (client["host"] == host and client["port"] == port)]
 
         if len(clients) == len(updated_clients):
-            print(f"El cliente {host}:{port} no se encontró en la lista.")
+            Logger.log_info(f"El cliente {host}:{port} no se encontró en la lista.")
             return
 
         config["clients"] = updated_clients
         ConfigurationManager.save_config(config)
-        print(f"Cliente {host}:{port} eliminado correctamente.")
+        Logger.log_info(f"Cliente {host}:{port} eliminado correctamente.")
