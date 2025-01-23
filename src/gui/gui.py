@@ -1,88 +1,68 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
-from config.config_manager import ConfigurationManager
-from sync.sync import SyncManager
-
+from tkinter import ttk
+from tkinter import messagebox
+from config import ConfigurationManager
 
 class SyncApp:
-    def __init__(self):
-        self.window = tk.Tk()
-        self.window.title("Sincronización de Archivos")
-        self.window.geometry("500x300")
-        
-        # Inicializar configuración y SyncManager
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Sync Manager")
         self.config = ConfigurationManager.load_config()
-        self.sync_manager = SyncManager(self.window)
 
-        # Crear la interfaz gráfica
-        self.create_widgets()
+        # Crear un Notebook (contiene las pestañas)
+        self.notebook = ttk.Notebook(self.root)
+        self.notebook.pack(fill='both', expand=True)
 
-    def create_widgets(self):
-        # Etiqueta de título
-        tk.Label(self.window, text="Sincronización de Archivos", font=("Arial", 16)).pack(pady=10)
+        # Crear las pestañas
+        self.create_sync_tab()
+        self.create_config_tab()
 
-        # Mostrar la carpeta configurada
-        self.folder_label = tk.Label(self.window, text=f"Carpeta actual: {self.config.get('sync_folder', 'No configurada')}", wraplength=400)
-        self.folder_label.pack(pady=5)
+    def create_sync_tab(self):
+        """Crear la pestaña para sincronización"""
+        sync_tab = ttk.Frame(self.notebook)
+        self.notebook.add(sync_tab, text="Sincronización")
 
-        # Botón para seleccionar la carpeta
-        tk.Button(self.window, text="Seleccionar Carpeta", command=self.select_folder).pack(pady=10)
+        # Agregar contenido de la pestaña de sincronización
+        tk.Label(sync_tab, text="Carpeta de sincronización:").pack(pady=10)
 
-        # Botones para iniciar y detener la sincronización
-        self.start_button = tk.Button(self.window, text="Iniciar Sincronización", command=self.start_sync)
-        self.start_button.pack(pady=5)
+        self.folder_var = tk.StringVar(value=self.config.get("sync_folder", ""))
+        self.folder_entry = tk.Entry(sync_tab, textvariable=self.folder_var, width=50)
+        self.folder_entry.pack(pady=5)
 
-        self.stop_button = tk.Button(self.window, text="Detener Sincronización", command=self.stop_sync, state=tk.DISABLED)
-        self.stop_button.pack(pady=5)
+        tk.Button(sync_tab, text="Seleccionar carpeta", command=self._select_folder).pack(pady=5)
+        tk.Button(sync_tab, text="Guardar configuración", command=self._save_config).pack(pady=5)
 
-        # Área de mensajes informativos
-        self.message_label = tk.Label(self.window, text="", fg="green")
-        self.message_label.pack(pady=10)
+    def create_config_tab(self):
+        """Crear la pestaña para configuración"""
+        config_tab = ttk.Frame(self.notebook)
+        self.notebook.add(config_tab, text="Configuración")
 
-    def select_folder(self):
-        """Abrir un selector de carpetas y guardar la selección en config.json."""
+        # Agregar contenido de la pestaña de configuración
+        tk.Label(config_tab, text="Configuración del sistema").pack(pady=10)
+        tk.Button(config_tab, text="Iniciar sincronización", command=self._start_sync).pack(pady=5)
+        tk.Button(config_tab, text="Detener sincronización", command=self._stop_sync).pack(pady=5)
+
+    def _select_folder(self):
+        """Permite al usuario seleccionar una carpeta."""
         folder = filedialog.askdirectory()
         if folder:
-            # Guardar en config.json
-            self.config["sync_folder"] = folder
-            ConfigurationManager.save_config(self.config)
-            self.folder_label.config(text=f"Carpeta actual: {folder}")
-            self.show_message("Carpeta de sincronización actualizada.", "green")
+            self.folder_var.set(folder)
 
-    def start_sync(self):
-        """Inicia la sincronización de archivos."""
-        if not self.config.get("sync_folder"):
-            self.show_message("Por favor, configure una carpeta primero.", "red")
-            return
-
-        self.config["sync_active"] = True
+    def _save_config(self):
+        """Guarda la configuración en config.json."""
+        self.config["sync_folder"] = self.folder_var.get()
         ConfigurationManager.save_config(self.config)
-        self.sync_manager.update_config()
+        messagebox.showinfo("Información", "Configuración guardada correctamente.")
 
-        self.start_button.config(state=tk.DISABLED)
-        self.stop_button.config(state=tk.NORMAL)
-        self.show_message("Se ha iniciado la sincronización.", "green")
+    def _start_sync(self):
+        """Inicia la sincronización (simulado en este caso)."""
+        messagebox.showinfo("Sincronización", "Sincronización iniciada exitosamente.")
 
-    def stop_sync(self):
-        """Detiene la sincronización de archivos."""
-        self.config["sync_active"] = False
-        ConfigurationManager.save_config(self.config)
-        self.sync_manager.update_config()
+    def _stop_sync(self):
+        """Detiene la sincronización (simulado en este caso)."""
+        messagebox.showinfo("Sincronización", "Sincronización detenida exitosamente.")
 
-        self.start_button.config(state=tk.NORMAL)
-        self.stop_button.config(state=tk.DISABLED)
-        self.show_message("Se ha detenido la sincronización.", "red")
-
-    def show_message(self, message, color):
-        """Muestra un mensaje en la GUI."""
-        self.message_label.config(text=message, fg=color)
-
-    def run(self):
-        """Inicia el bucle principal de la GUI."""
-        self.window.mainloop()
-
-
-# Ejemplo de uso
 if __name__ == "__main__":
-    app = SyncApp()
-    app.run()
+    root = tk.Tk()
+    app = SyncApp(root)
+    root.mainloop()

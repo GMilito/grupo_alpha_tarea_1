@@ -1,6 +1,6 @@
 from config import ConfigurationManager
 from log import Logger
-from sync import SyncManager
+from sync import SyncManager, FileReceiver
 from monitor import FolderMonitor
 from gui import SyncApp
 import threading
@@ -20,6 +20,13 @@ def main():
     sync_folder = config.get("sync_folder", "")
     sync_active = config.get("sync_active", False)
 
+    # Inicializar y ejecutar el cliente para recibir archivos
+    try:
+        print(f"Cliente iniciando en la carpeta de sincronización: {sync_folder}")
+        client = FileReceiver(sync_folder, port=5000)
+        client.start()
+    except Exception as e:
+        print(f"Error al iniciar el cliente: {e}")
     # Inicializar la ventana Tkinter (root)
     root = Tk()
     root.withdraw()  # Ocultar la ventana principal de Tkinter
