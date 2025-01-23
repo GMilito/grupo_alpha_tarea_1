@@ -7,14 +7,21 @@ class Logger:
     Clase para manejar el registro de eventos y errores del sistema.
     """
     LOG_FILE = "log.txt"  # Archivo donde se almacenarán los logs
+    LOG_FOLDER = "logs"   # Carpeta donde se guardarán los logs
 
     @staticmethod
     def configure_logger():
         """
         Configura el sistema de logging para usar un archivo con un formato estándar.
+        Asegura que la carpeta de logs exista antes de escribir.
         """
+        if not os.path.exists(Logger.LOG_FOLDER):
+            os.makedirs(Logger.LOG_FOLDER)  # Crear la carpeta de logs si no existe
+
+        log_file_path = os.path.join(Logger.LOG_FOLDER, Logger.LOG_FILE)
+
         logging.basicConfig(
-            filename=Logger.LOG_FILE,
+            filename=log_file_path,
             level=logging.INFO,  # Nivel mínimo de registro
             format="%(asctime)s - %(levelname)s - %(message)s",
             datefmt="%Y-%m-%d %H:%M:%S"
@@ -52,3 +59,11 @@ class Logger:
             logging.info(message)
         except Exception as e:
             Logger.log_error(f"Error registrando archivo {file_path}: {e}")
+
+    @staticmethod
+    def log_event(message):
+        """
+        Registra un evento personalizado.
+        :param message: Mensaje a registrar.
+        """
+        logging.info(f"Evento: {message}")
