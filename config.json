@@ -1,4 +1,6 @@
 {
-    "sync_folder": "C:/Users/gmili/OneDrive/Desktop/carpeta_sincronizacion_prueba",
-    "sync_active": true
+    "source_folders": [
+        "C:/Users/bfernandez/Desktop/dir1"
+    ],
+    "destination_folder": "C:/Users/bfernandez/Desktop/dir2"
 }

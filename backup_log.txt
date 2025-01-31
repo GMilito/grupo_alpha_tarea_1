@@ -1,0 +1,157 @@
+2025-01-31 10:36:34,965 - ERROR - Permiso denegado al acceder a C:/Users/bfernandez/Desktop/dir1\aldo\Nuevo Presentación de Microsoft PowerPoint.pptx: [WinError 32] El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+2025-01-31 11:55:49,591 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2 -> C:/Users/bfernandez/Desktop/dir1\Aldo
+2025-01-31 11:55:49,594 - INFO - 🔄 C:/Users/bfernandez/Desktop/dir2\Aldo2 renombrado a C:/Users/bfernandez/Desktop/dir2\Aldo
+2025-01-31 11:55:49,594 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\1 -> C:/Users/bfernandez/Desktop/dir1\Aldo\1
+2025-01-31 11:55:49,595 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\2 -> C:/Users/bfernandez/Desktop/dir1\Aldo\2
+2025-01-31 11:55:49,595 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\3 -> C:/Users/bfernandez/Desktop/dir1\Aldo\3
+2025-01-31 11:55:49,596 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\4 -> C:/Users/bfernandez/Desktop/dir1\Aldo\4
+2025-01-31 11:55:49,596 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\5 -> C:/Users/bfernandez/Desktop/dir1\Aldo\5
+2025-01-31 11:55:49,597 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\2\Captura de pantalla 2025-01-20 105553.png -> C:/Users/bfernandez/Desktop/dir1\Aldo\2\Captura de pantalla 2025-01-20 105553.png
+2025-01-31 11:55:49,599 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\2\Captura de pantalla 2025-01-29 095334.png -> C:/Users/bfernandez/Desktop/dir1\Aldo\2\Captura de pantalla 2025-01-29 095334.png
+2025-01-31 11:55:49,600 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\2\Captura de pantalla 2025-01-29 113046.png -> C:/Users/bfernandez/Desktop/dir1\Aldo\2\Captura de pantalla 2025-01-29 113046.png
+2025-01-31 11:55:49,601 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\2\Captura de pantalla 2025-01-29 135049.png -> C:/Users/bfernandez/Desktop/dir1\Aldo\2\Captura de pantalla 2025-01-29 135049.png
+2025-01-31 11:55:49,602 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\4\lista de correos.xlsx -> C:/Users/bfernandez/Desktop/dir1\Aldo\4\lista de correos.xlsx
+2025-01-31 11:55:49,602 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\4\Manual para agregar correo electrónico profesional a Gmail.docx -> C:/Users/bfernandez/Desktop/dir1\Aldo\4\Manual para agregar correo electrónico profesional a Gmail.docx
+2025-01-31 11:55:49,603 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\4\Ramírez Montoya.docx -> C:/Users/bfernandez/Desktop/dir1\Aldo\4\Ramírez Montoya.docx
+2025-01-31 11:55:49,605 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\4\RNPDIGITAL-1787904-2024.pdf -> C:/Users/bfernandez/Desktop/dir1\Aldo\4\RNPDIGITAL-1787904-2024.pdf
+2025-01-31 11:55:49,606 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2 -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2
+2025-01-31 11:55:49,606 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\redist -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\redist
+2025-01-31 11:55:49,608 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64 -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64
+2025-01-31 11:55:49,609 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86 -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86
+2025-01-31 11:55:49,612 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\ReadMe.txt -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\ReadMe.txt
+2025-01-31 11:55:49,613 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\Setup.exe -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\Setup.exe
+2025-01-31 11:55:49,614 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\Setup.ini -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\Setup.ini
+2025-01-31 11:55:49,614 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\redist\InstMsiW.exe -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\redist\InstMsiW.exe
+2025-01-31 11:55:49,615 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\ACS_Unified_PCSC_Driver-4.2.8.0.msi -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\ACS_Unified_PCSC_Driver-4.2.8.0.msi
+2025-01-31 11:55:49,615 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Arabic.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Arabic.mst
+2025-01-31 11:55:49,615 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Chinese (Simplified).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Chinese (Simplified).mst
+2025-01-31 11:55:49,617 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Chinese (Traditional).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Chinese (Traditional).mst
+2025-01-31 11:55:49,618 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Czech.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Czech.mst
+2025-01-31 11:55:49,619 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Danish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Danish.mst
+2025-01-31 11:55:49,620 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Dutch.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Dutch.mst
+2025-01-31 11:55:49,621 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Finnish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Finnish.mst
+2025-01-31 11:55:49,622 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\French.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\French.mst
+2025-01-31 11:55:49,623 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\German.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\German.mst
+2025-01-31 11:55:49,626 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Greek.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Greek.mst
+2025-01-31 11:55:49,627 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Hebrew.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Hebrew.mst
+2025-01-31 11:55:49,627 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Hungarian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Hungarian.mst
+2025-01-31 11:55:49,628 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Italian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Italian.mst
+2025-01-31 11:55:49,628 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Japanese.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Japanese.mst
+2025-01-31 11:55:49,629 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Korean.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Korean.mst
+2025-01-31 11:55:49,629 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Norwegian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Norwegian.mst
+2025-01-31 11:55:49,629 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Polish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Polish.mst
+2025-01-31 11:55:49,630 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Portuguese (Brazil).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Portuguese (Brazil).mst
+2025-01-31 11:55:49,630 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Portuguese (Portugal).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Portuguese (Portugal).mst
+2025-01-31 11:55:49,631 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Romanian (Romania).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Romanian (Romania).mst
+2025-01-31 11:55:49,632 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Russian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Russian.mst
+2025-01-31 11:55:49,632 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Spanish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Spanish.mst
+2025-01-31 11:55:49,633 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Swedish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Swedish.mst
+2025-01-31 11:55:49,633 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Turkish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Turkish.mst
+2025-01-31 11:55:49,635 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x64\Ukrainian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x64\Ukrainian.mst
+2025-01-31 11:55:49,636 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\ACS_Unified_PCSC_Driver-4.2.8.0.msi -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\ACS_Unified_PCSC_Driver-4.2.8.0.msi
+2025-01-31 11:55:49,637 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Arabic.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Arabic.mst
+2025-01-31 11:55:49,639 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Chinese (Simplified).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Chinese (Simplified).mst
+2025-01-31 11:55:49,640 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Chinese (Traditional).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Chinese (Traditional).mst
+2025-01-31 11:55:49,641 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Czech.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Czech.mst
+2025-01-31 11:55:49,642 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Danish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Danish.mst
+2025-01-31 11:55:49,642 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Dutch.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Dutch.mst
+2025-01-31 11:55:49,644 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Finnish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Finnish.mst
+2025-01-31 11:55:49,644 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\French.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\French.mst
+2025-01-31 11:55:49,645 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\German.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\German.mst
+2025-01-31 11:55:49,645 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Greek.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Greek.mst
+2025-01-31 11:55:49,646 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Hebrew.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Hebrew.mst
+2025-01-31 11:55:49,647 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Hungarian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Hungarian.mst
+2025-01-31 11:55:49,647 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Italian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Italian.mst
+2025-01-31 11:55:49,648 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Japanese.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Japanese.mst
+2025-01-31 11:55:49,648 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Korean.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Korean.mst
+2025-01-31 11:55:49,650 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Norwegian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Norwegian.mst
+2025-01-31 11:55:49,650 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Polish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Polish.mst
+2025-01-31 11:55:49,651 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Portuguese (Brazil).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Portuguese (Brazil).mst
+2025-01-31 11:55:49,654 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Portuguese (Portugal).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Portuguese (Portugal).mst
+2025-01-31 11:55:49,655 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Romanian (Romania).mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Romanian (Romania).mst
+2025-01-31 11:55:49,655 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Russian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Russian.mst
+2025-01-31 11:55:49,657 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Spanish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Spanish.mst
+2025-01-31 11:55:49,657 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Swedish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Swedish.mst
+2025-01-31 11:55:49,657 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Turkish.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Turkish.mst
+2025-01-31 11:55:49,658 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo2\5\2\x86\Ukrainian.mst -> C:/Users/bfernandez/Desktop/dir1\Aldo\5\2\x86\Ukrainian.mst
+2025-01-31 11:55:59,295 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier -> C:/Users/bfernandez/Desktop/dir1\Javier2
+2025-01-31 11:55:59,297 - INFO - 🔄 C:/Users/bfernandez/Desktop/dir2\Javier renombrado a C:/Users/bfernandez/Desktop/dir2\Javier2
+2025-01-31 11:55:59,298 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\1 -> C:/Users/bfernandez/Desktop/dir1\Javier2\1
+2025-01-31 11:55:59,298 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\2 -> C:/Users/bfernandez/Desktop/dir1\Javier2\2
+2025-01-31 11:55:59,299 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\3 -> C:/Users/bfernandez/Desktop/dir1\Javier2\3
+2025-01-31 11:55:59,299 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\4 -> C:/Users/bfernandez/Desktop/dir1\Javier2\4
+2025-01-31 11:55:59,301 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\5 -> C:/Users/bfernandez/Desktop/dir1\Javier2\5
+2025-01-31 11:55:59,302 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\2\Captura de pantalla 2025-01-20 105553.png -> C:/Users/bfernandez/Desktop/dir1\Javier2\2\Captura de pantalla 2025-01-20 105553.png
+2025-01-31 11:55:59,302 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\2\Captura de pantalla 2025-01-29 095334.png -> C:/Users/bfernandez/Desktop/dir1\Javier2\2\Captura de pantalla 2025-01-29 095334.png
+2025-01-31 11:55:59,303 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\2\Captura de pantalla 2025-01-29 113046.png -> C:/Users/bfernandez/Desktop/dir1\Javier2\2\Captura de pantalla 2025-01-29 113046.png
+2025-01-31 11:55:59,303 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\2\Captura de pantalla 2025-01-29 135049.png -> C:/Users/bfernandez/Desktop/dir1\Javier2\2\Captura de pantalla 2025-01-29 135049.png
+2025-01-31 11:55:59,304 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\4\lista de correos.xlsx -> C:/Users/bfernandez/Desktop/dir1\Javier2\4\lista de correos.xlsx
+2025-01-31 11:55:59,304 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\4\Manual para agregar correo electrónico profesional a Gmail.docx -> C:/Users/bfernandez/Desktop/dir1\Javier2\4\Manual para agregar correo electrónico profesional a Gmail.docx
+2025-01-31 11:55:59,305 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\4\Ramírez Montoya.docx -> C:/Users/bfernandez/Desktop/dir1\Javier2\4\Ramírez Montoya.docx
+2025-01-31 11:55:59,305 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\4\RNPDIGITAL-1787904-2024.pdf -> C:/Users/bfernandez/Desktop/dir1\Javier2\4\RNPDIGITAL-1787904-2024.pdf
+2025-01-31 11:55:59,307 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\5\2 -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2
+2025-01-31 11:55:59,307 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\redist -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\redist
+2025-01-31 11:55:59,308 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64 -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64
+2025-01-31 11:55:59,308 - INFO - 📁 Carpeta renombrada/movida: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86 -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86
+2025-01-31 11:55:59,309 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\ReadMe.txt -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\ReadMe.txt
+2025-01-31 11:55:59,309 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\Setup.exe -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\Setup.exe
+2025-01-31 11:55:59,312 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\Setup.ini -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\Setup.ini
+2025-01-31 11:55:59,313 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\redist\InstMsiW.exe -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\redist\InstMsiW.exe
+2025-01-31 11:55:59,313 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\ACS_Unified_PCSC_Driver-4.2.8.0.msi -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\ACS_Unified_PCSC_Driver-4.2.8.0.msi
+2025-01-31 11:55:59,314 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Arabic.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Arabic.mst
+2025-01-31 11:55:59,315 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Chinese (Simplified).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Chinese (Simplified).mst
+2025-01-31 11:55:59,315 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Chinese (Traditional).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Chinese (Traditional).mst
+2025-01-31 11:55:59,316 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Czech.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Czech.mst
+2025-01-31 11:55:59,318 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Danish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Danish.mst
+2025-01-31 11:55:59,320 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Dutch.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Dutch.mst
+2025-01-31 11:55:59,321 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Finnish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Finnish.mst
+2025-01-31 11:55:59,322 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\French.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\French.mst
+2025-01-31 11:55:59,322 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\German.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\German.mst
+2025-01-31 11:55:59,323 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Greek.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Greek.mst
+2025-01-31 11:55:59,323 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Hebrew.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Hebrew.mst
+2025-01-31 11:55:59,324 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Hungarian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Hungarian.mst
+2025-01-31 11:55:59,324 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Italian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Italian.mst
+2025-01-31 11:55:59,324 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Japanese.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Japanese.mst
+2025-01-31 11:55:59,326 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Korean.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Korean.mst
+2025-01-31 11:55:59,326 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Norwegian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Norwegian.mst
+2025-01-31 11:55:59,326 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Polish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Polish.mst
+2025-01-31 11:55:59,327 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Portuguese (Brazil).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Portuguese (Brazil).mst
+2025-01-31 11:55:59,328 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Portuguese (Portugal).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Portuguese (Portugal).mst
+2025-01-31 11:55:59,329 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Romanian (Romania).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Romanian (Romania).mst
+2025-01-31 11:55:59,332 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Russian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Russian.mst
+2025-01-31 11:55:59,338 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Spanish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Spanish.mst
+2025-01-31 11:55:59,338 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Swedish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Swedish.mst
+2025-01-31 11:55:59,339 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Turkish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Turkish.mst
+2025-01-31 11:55:59,340 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x64\Ukrainian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x64\Ukrainian.mst
+2025-01-31 11:55:59,340 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\ACS_Unified_PCSC_Driver-4.2.8.0.msi -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\ACS_Unified_PCSC_Driver-4.2.8.0.msi
+2025-01-31 11:55:59,342 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Arabic.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Arabic.mst
+2025-01-31 11:55:59,342 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Chinese (Simplified).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Chinese (Simplified).mst
+2025-01-31 11:55:59,343 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Chinese (Traditional).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Chinese (Traditional).mst
+2025-01-31 11:55:59,343 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Czech.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Czech.mst
+2025-01-31 11:55:59,344 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Danish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Danish.mst
+2025-01-31 11:55:59,344 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Dutch.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Dutch.mst
+2025-01-31 11:55:59,345 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Finnish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Finnish.mst
+2025-01-31 11:55:59,347 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\French.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\French.mst
+2025-01-31 11:55:59,349 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\German.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\German.mst
+2025-01-31 11:55:59,350 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Greek.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Greek.mst
+2025-01-31 11:55:59,351 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Hebrew.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Hebrew.mst
+2025-01-31 11:55:59,351 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Hungarian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Hungarian.mst
+2025-01-31 11:55:59,352 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Italian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Italian.mst
+2025-01-31 11:55:59,352 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Japanese.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Japanese.mst
+2025-01-31 11:55:59,353 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Korean.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Korean.mst
+2025-01-31 11:55:59,353 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Norwegian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Norwegian.mst
+2025-01-31 11:55:59,354 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Polish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Polish.mst
+2025-01-31 11:55:59,354 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Portuguese (Brazil).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Portuguese (Brazil).mst
+2025-01-31 11:55:59,355 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Portuguese (Portugal).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Portuguese (Portugal).mst
+2025-01-31 11:55:59,355 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Romanian (Romania).mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Romanian (Romania).mst
+2025-01-31 11:55:59,355 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Russian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Russian.mst
+2025-01-31 11:55:59,357 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Spanish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Spanish.mst
+2025-01-31 11:55:59,357 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Swedish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Swedish.mst
+2025-01-31 11:55:59,358 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Turkish.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Turkish.mst
+2025-01-31 11:55:59,358 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Javier\5\2\x86\Ukrainian.mst -> C:/Users/bfernandez/Desktop/dir1\Javier2\5\2\x86\Ukrainian.mst
+2025-01-31 11:56:19,489 - INFO - ✅ Archivo respaldado: C:/Users/bfernandez/Desktop/dir1\Nuevo Documento de texto7.txt -> C:/Users/bfernandez/Desktop/dir2\Nuevo Documento de texto7.txt
+2025-01-31 11:56:44,004 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Nuevo Documento de texto2.txt -> C:/Users/bfernandez/Desktop/dir1\Nuevotexto.txt
+2025-01-31 11:56:44,006 - INFO - 🔄 C:/Users/bfernandez/Desktop/dir2\Nuevo Documento de texto2.txt renombrado a C:/Users/bfernandez/Desktop/dir2\Nuevotexto.txt
+2025-01-31 11:56:52,212 - INFO - ✅ Archivo respaldado: C:/Users/bfernandez/Desktop/dir1\Nuevotexto.txt -> C:/Users/bfernandez/Desktop/dir2\Nuevotexto.txt
+2025-01-31 11:57:36,359 - INFO - 📄 Archivo renombrado/movido: C:/Users/bfernandez/Desktop/dir1\Aldo\2\Captura de pantalla 2025-01-29 095334.png -> C:/Users/bfernandez/Desktop/dir1\Aldo\2\1.png
+2025-01-31 11:57:36,361 - INFO - 🔄 C:/Users/bfernandez/Desktop/dir2\Aldo\2\Captura de pantalla 2025-01-29 095334.png renombrado a C:/Users/bfernandez/Desktop/dir2\Aldo\2\1.png
